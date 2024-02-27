@@ -358,7 +358,7 @@ class EaModel(nn.Module):
         max_block_size = max_length
         max_block_size = find_multiple(max_block_size, 8)
 
-        print(max_block_size)
+        # print(max_block_size)
         # from IPython import embed
         # embed()
 
